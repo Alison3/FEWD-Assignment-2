@@ -1,0 +1,105 @@
+@import url {"reset.css"}
+@import url {'https://fonts.googleapis.com/css?family=Raleway'};
+
+* {box-sizing: border-box;}
+
+body {
+    font-size: 16px;
+    background:white;
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    border: 1px solid deeppink;
+    padding: 2px;
+}
+
+    nav ul li a{
+        display: inline-block;
+        width: 100%;
+    }
+
+a{
+    color:deeppink;
+}
+
+a:hover{
+    color:fuchsia;
+}
+
+a:visited{
+    color:darkmagenta;
+}
+
+.p1{
+    color:darkmagenta;
+}
+
+.p2{
+    color:darkmagenta;
+}
+
+.p3{
+    color:darkmagenta;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 200%;
+    color:fuchsia;
+    padding: 5px;
+    border: 2px solid fuchsia;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 150%;
+    color:black;
+}
+
+.img_one{
+    width: 950px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+    .img_one img{
+    width: 100%;
+    }
+    
+.img_two{
+    width: 950px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+    .img_two img{
+        width: 100%;
+    }
+
+.img_with_cap{
+    width: 950px;
+    /*height: 500px;*/
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+    /*top: -10;*/
+}
+
+    .img_with_cap p{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color:white;
+        font-weight:bold;
+    }
+
+    .img_with_cap img{
+        width: 100%;
+    }
